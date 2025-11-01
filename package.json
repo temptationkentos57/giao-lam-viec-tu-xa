@@ -1,6 +1,6 @@
 {
   "name": "giao-lam-viec-tu-xa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nền tảng kết nối freelancer và doanh nghiệp",
   "main": "index.js",
   "scripts": {
