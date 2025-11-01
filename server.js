@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Basic health check route
 app.get('/health', (req, res) => {
-  res.status(200).send('OK');
+  res.status(200).json({ status: 'OK' });
 });
 
 const PORT = process.env.PORT || 3000;
