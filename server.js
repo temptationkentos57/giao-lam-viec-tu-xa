@@ -4,7 +4,10 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-// Routes will be defined here
+// Basic health check route
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
